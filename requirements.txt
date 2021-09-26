@@ -58,3 +58,4 @@ watchgod==0.7
 wcwidth==0.2.5
 websockets==8.1
 Werkzeug==2.0.1
+uvloop
