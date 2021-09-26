@@ -49,9 +49,9 @@ async def generate_page(background_tasks: BackgroundTasks, text: str):
         return {'message': 'error'}
 
 
-config = Config(app=app, host='0.0.0.0', port=PORT, loop=loop)
-server = Server(config)
-loop.run_until_complete(server.serve())
+# config = Config(app=app, host='0.0.0.0', port=PORT, loop=loop)
+# server = Server(config)
+# loop.run_until_complete(server.serve())
 
 # if __name__ == '__main__':
 #    uvicorn.run('app:app', host="0.0.0.0", port=5000)
