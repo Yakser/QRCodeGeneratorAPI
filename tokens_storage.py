@@ -5,7 +5,7 @@ from datetime import datetime
 
 import qrcode
 
-FILE_PATH = './api/static/qr-code-'
+FILE_PATH = './static/qr-code-'
 
 
 class TokensStorage:
