@@ -1,1 +1,1 @@
-# QRCodeGeneratoAPI
+# QRCodeGeneratorAPI
